@@ -79,7 +79,7 @@ dts_import() {
 		importer "SUBTREE" "arch/arm64/boot/dts/vendor" https://github.com/Atom-X-Devs/android_kernel_qcom_devicetree "$msg"
 	elif [[ $kv == 5.4 ]]; then
 		msg="ARM64: dts/vendor: Import DTS for lahaina family"
-		importer "SUBTREE" "arch/arm64/boot/dts/vendor" https://github.com/Divyanshu-Modi/kernel-devicetree AtomX "$msg"
+		importer "SUBTREE" "arch/arm64/boot/dts/vendor" https://github.com/Divyanshu-Modi/kernel-devicetree main "$msg"
 		msg="ARM64: dts/vendor: Import camera DTS for lahaina family"
 		importer "SUBTREE" "arch/arm64/boot/dts/vendor/qcom/camera" https://github.com/Divyanshu-Modi/kernel-camera-devicetree main "$msg"
 		msg="ARM64: dts/vendor: Import display DTS for lahaina family"
